@@ -1,0 +1,132 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+:root{
+    --darkGreenCustom:#386641;
+    --greenCustom:#6a994e;
+    --greenLightCustom:#a7c957;
+    --pannaWhite:#f2e8cf;
+    --greenSuperLight:#e9f5db;
+    --redCustom:#bc4749;
+}
+.inputpers{
+    border: 1px solid var(--darkGreenCustom) ;
+    border-radius: 4px;
+}
+.form-control:focus {
+    border-color: var(--darkGreenCustom);
+    -webkit-box-shadow:var(--darkGreenCustom) ;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.card-img-top{
+    height: 280px;
+}
+h1{
+    text-shadow:4px 4px 7px rgba(142, 48, 48, 0.65);
+    color: var(--darkGreenCustom);
+}
+.italymap{
+    height: 75vh;
+    width: 50vw;
+    background-image: url(/public/storage/img/Italymap1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bgpers{
+    background-image: url(/public/storage/img/bgset.png);
+    background-size: contain;
+}
+
+
+/* Stile Navbar */
+.navbar {
+    background-color: var(--greenSuperLight);
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.rotate-brand {
+    animation: rotate 1s linear forwards;
+}
+
+.navbar-toggler {
+    color: var(--greenLightCustom);
+    background-color: var(--pannaWhite);
+}
+
+.nav-link {
+    transition: 0.5s;
+    position: relative;
+}
+
+.nav-link:hover {
+    transition: 0.5s;
+    color: var(--redCustom);
+}
+
+.navbar-brand:hover {
+    color: var(--darkGreenCustom);
+}
+
+.img-preview{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+
+.btn{
+    background-color: var(--greenCustom);
+}
+
+.btnflag{
+    background-color: var(--greenLightCustom);
+}
+
+.fapers{
+    background-color: var(--greenSuperLight);
+}
+.fapers1{
+    background-color: white;
+}
+input{
+caret-color: var(--greenLightCustom);
+}
+
+.accordion--radio {
+    --theme: var(--darkGreenCustom);
+    }
+    .accordion {
+        color: var(--greenCustom);
+        border: 1px solid;
+        border-radius: 0.5rem;
+        --bs-accordion-active-bg:var(--pannaWhite);
+    }
+    .accordion-button:hover{
+        color: var(--darkGreenCustom);
+        background-color: var(--greenSuperLight);
+    }
+
+
+.souloutimg{
+    background-image: url(/public/storage/img/Sullout_2.png);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+
+@media(max-width:768px){
+    body{
+        margin: 80px;
+    }
+    #nontivogliovedere{
+        display: none;
+    }
+}
